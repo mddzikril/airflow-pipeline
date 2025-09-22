@@ -1,0 +1,47 @@
+# Python cache & virtual env
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+*.egg
+
+# Airflow logs & temp files
+logs/
+*.log
+airflow.db
+airflow-webserver.pid
+scheduler.pid
+unittests.cfg
+
+# SQL 
+*.sqlite
+*.db
+*.sql
+*.dump
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Config & secrets 
+config/airflow.cfg
+config/secrets.cfg
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Docker & Compose
+*.pid
+*.sock
+.docker/
+docker-compose.override.yml
